@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* react-day-picker: override accent color to indigo-600 */
+.rdp-root {
+  --rdp-accent-color: #4f46e5;
+  --rdp-accent-background-color: #eef2ff;
+  --rdp-today-color: #4f46e5;
+  --rdp-day_button-height: 36px;
+  --rdp-day_button-width: 36px;
+  --rdp-day-height: 36px;
+  --rdp-day-width: 36px;
+  --rdp-nav_button-height: 1.75rem;
+  --rdp-nav_button-width: 1.75rem;
+  font-size: 0.875rem;
+}

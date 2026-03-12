@@ -19,7 +19,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
       className={`${GeistSans.variable} ${GeistMono.variable}`}
       suppressHydrationWarning
     >
-      <body className="bg-zinc-50 dark:bg-zinc-950 text-zinc-950 dark:text-zinc-50">
+      <body className="bg-neutral-50 dark:bg-neutral-950 text-neutral-950 dark:text-neutral-50">
         <ThemeProvider attribute="class" disableTransitionOnChange>
           {children}
         </ThemeProvider>

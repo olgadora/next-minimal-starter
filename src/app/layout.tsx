@@ -7,8 +7,8 @@ import type { PropsWithChildren } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Minimal Next.js Starter",
-  description: "A better create-next-app template",
+  title: "My Tasks — TODO App",
+  description: "A simple and clean TODO app",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
@@ -19,8 +19,13 @@ export default function RootLayout({ children }: PropsWithChildren) {
       className={`${GeistSans.variable} ${GeistMono.variable}`}
       suppressHydrationWarning
     >
-      <body className="bg-zinc-50 dark:bg-zinc-950 text-zinc-950 dark:text-zinc-50">
-        <ThemeProvider attribute="class" disableTransitionOnChange>
+      <body className="bg-gray-50 text-gray-900">
+        <ThemeProvider
+          attribute="class"
+          forcedTheme="light"
+          defaultTheme="light"
+          disableTransitionOnChange
+        >
           {children}
         </ThemeProvider>
       </body>

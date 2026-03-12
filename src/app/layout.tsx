@@ -7,8 +7,8 @@ import type { PropsWithChildren } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Minimal Next.js Starter",
-  description: "A better create-next-app template",
+  title: "TODO App",
+  description: "A minimal, accessible TODO application",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {

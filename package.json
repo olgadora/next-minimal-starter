@@ -12,7 +12,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "canvas-confetti": "^1.9.4",
     "date-fns": "^4.1.0",
+    "framer-motion": "^12.36.0",
     "geist": "^1.3.0",
     "next": "^14.2.4",
     "next-themes": "^0.3.0",
